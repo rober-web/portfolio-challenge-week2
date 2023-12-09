@@ -1,5 +1,21 @@
+:root{
+  
+/***********HEADER***********/
+--header-padding:10px 100px;
+
+/***********SECTIONS***********/
+--section-padding:30px 100px;
+--column-padding:30px;
+--main-title-font-size:3.5em;
+--tagline-font-size:1.4em;
+--background-color: rgb(255, 165, 0);
+--hero-height:95vh;
+--section-height:100vh;
+}
+
 * {
   box-sizing: border-box;
+
 }
 
 body {
@@ -21,3 +37,119 @@ h6 {
 p {
   margin: 0;
 }
+
+/***********GROUPED***********/
+
+.hero-banner, .page-section{
+  padding: var(--section-padding);
+}
+
+
+/***********HEADER***********/
+
+header{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border:solid 1px red;
+  padding:var(--header-padding);
+}
+
+/***********NAVIGATION***********/
+
+#main-menu{
+  border: solid 1px green;;
+}
+
+#menu-option{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+/***********HERO***********/
+.hero-banner{
+  display: flex;
+  flex-direction: row;
+  height: var(--hero-height);
+  align-items: center;
+  background-color: var(--background-color);
+}
+.hero-picture{
+  background-image: url('../images/avatar.PNG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:300px;
+  height: 300px;
+  border-radius: 100%;
+  border: solid 1px black;
+}
+.hero-column{
+  width:50%;
+  height: 100%;;
+  padding:var(--column-padding);
+  border:solid 1px orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-title{
+  font-size: var(--main-title-font-size);
+  line-height: 2;
+}
+
+.tagline{
+  font-size: var(--tagline-font-size);
+}
+/***********ABOUT ME***********/
+
+
+
+/***********CONTENT***********/
+
+main:nth-child(){
+  
+}
+
+
+
+.page-section{
+  border:solid 1px blue;
+  display: flex;
+  min-height: var(--section-height);
+  
+}
+
+.page-section:nth-child(even) {
+  /*background-color: gray;  Set your desired background color for odd sections */
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--background-color);
+}
+
+
+
+.section-column{
+  padding: var(--column-padding);
+  border: solid 1px orange;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-column h2{
+  font-size: 3em;;
+}
+
+/***********CONTACT***********/
+
+
+
+/***********FOOTER***********/
+
+
