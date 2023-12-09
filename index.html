@@ -6,40 +6,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./js/functions.js"></script>
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
-    <nav>
+    <h1>Roberto Medeiros</h1>
+    <nav id="main-menu">
+      <ul id="menu-option">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
     </nav>
   </header>
 
   <!-- hero banner -->
   <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
+    <div class="hero-column">
+      <div class="hero-picture"></div>
     </div>
+    <div class="hero-column">
+      <div class="hero-text">
+        <h2 class="main-title">Hello, I'm < Roberto />.</h2>
+        <h3 class="tagline">Crafting Astonishing Websites to Knock Out Your Digital Goals.</h3>
+      </div>
+    </div>
+
+
   </section>
 
   <main class="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="about">
-      <h2>About Me</h2>
+
+      <div class="section-column">
+        <h2>About Me</h2>
+      </div>
+      <div class="section-column">
+        <p>I am a passionate web developer dedicated to creating visually stunning and seamlessly functional websites. With a keen eye for design and a love for coding, I strive to bring your digital vision to life. Let's collaborate to build a compelling online presence that leaves a lasting impression.</p>
+      </div>
+      
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
-      <h2>Work</h2>
+      <div class="section-column">
+        <h2>Work</h2>
+      </div>
+      <div class="section-column">
+        <p>here are going to present the portfolio</p>
+      </div>
     </section>
 
     <!-- contact -->
     <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+      
+      <div class="section-column">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="section-column">
+        <p>here are going to be the contact</p>
+      </div>
     </section>
   </main>
+  
 </body>
 
 </html>
