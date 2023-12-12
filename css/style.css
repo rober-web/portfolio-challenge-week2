@@ -252,6 +252,7 @@
       background-color: rgb(255, 165, 0);
       color: #fff;
       cursor: pointer;
+      text-align: center;
   }
   
   input[type="submit"]:hover {

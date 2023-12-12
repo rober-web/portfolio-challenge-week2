@@ -27,7 +27,7 @@ This challenge portfolio showcases skills and experience as a front-end web desi
 - A clean and modern design
 - A responsive layout that looks great on all devices
 - A well-organized presentation of your skills and experience
-- A contact form for potential employers or clients to reach out to you
+- A contact form for potential employers or clients to reach out
 
 ## Resources
 
@@ -39,7 +39,4 @@ This challenge portfolio showcases skills and experience as a front-end web desi
 
 ![Roberto Portfolio](./images/portfolio-img.PNG)
 
-[View my portfolio website](https://link)
-
-
-
+[View my portfolio website](https://rober-web.github.io/portfolio-challenge-week2/)
