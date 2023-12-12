@@ -32,12 +32,11 @@
     </div>
     <div class="hero-column">
       <div class="hero-text">
-        <h2 class="main-title">Hello, I'm < Roberto />.</h2>
+        <h2 class="main-title">Hello, I'm Roberto </h2>
         <h3 class="tagline">Crafting Astonishing Websites to Knock Out Your Digital Goals.</h3>
+        <a class="btn" href="#work">I want to know more...</a>
       </div>
     </div>
-
-
   </section>
 
   <main class="page-wrapper">
@@ -45,36 +44,97 @@
     <section class="page-section" id="about">
 
       <div class="section-column">
-        <h2>About Me</h2>
+        <h2 class="section-column-title">About Me</h2>
       </div>
       <div class="section-column">
-        <p>I am a passionate web developer dedicated to creating visually stunning and seamlessly functional websites. With a keen eye for design and a love for coding, I strive to bring your digital vision to life. Let's collaborate to build a compelling online presence that leaves a lasting impression.</p>
+        <p class="section-column-text">I am a passionate web developer dedicated to creating visually stunning and
+          seamlessly functional websites. With a keen eye for design and a love for coding, I strive to bring your
+          digital vision to life. Let's collaborate to build a compelling online presence that leaves a lasting
+          impression.</p>
+      <a class="btn" href="#work">See My Jobs...</a>
       </div>
-      
+
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
       <div class="section-column">
-        <h2>Work</h2>
+        <h2 class="section-column-title">Work</h2>
+        <p class="section-column-text">Welcome to my portfolio, where I showcase projects that reflect my passion for web development. 
+          Each project represents my skills and dedication to creating engaging and functional websites. From innovative design concepts to seamless user experiences, explore my work to get a glimpse of the diverse range of projects I've undertaken. Whether front-end magic or back-end mastery, every project is a unique journey. 
+          I'm excited to share these experiences with you.</p>
+          <a class="btn" href="#contact">Contact Me...</a>
       </div>
-      <div class="section-column">
-        <p>here are going to present the portfolio</p>
+      <div class="section-column jobs">
+        <div class="job-card card1">
+          <a href="https://www.rmoproducoes.com.br/" target="_blank" rel="noopener noreferrer">
+            <div class="job-card-caption">
+              <h4 class="job-card-title">RMO Producoes</h4>
+              <p class="job-card-description">HTML CSS JavaScript WordPress</p>
+            </div>
+          </a>
+        </div>
+        <div class="job-card card2">
+          <a href="https://www.roberweb.com/" target="_blank" rel="noopener noreferrer">
+            <div class="job-card-caption">
+              <h4 class="job-card-title">RoberWeb</h4>
+              <p class="job-card-description">HTML CSS JavaScript PHP WordPress Oxygen Builder</p>
+            </div>
+          </a>
+        </div>
+        <div class="job-card card3">
+          <a href="https://rober-web.github.io/code-refactor-week1/" target="_blank" rel="noopener noreferrer">
+            <div class="job-card-caption">
+              <h4 class="job-card-title">Horiseon</h4>
+              <p class="job-card-description">HTML CSS JavaScript</p>
+            </div>
+          </a>
+        </div>
+        <div class="job-card card4">
+          <a href="https://www.kodenart.com/" target="_blank" rel="noopener noreferrer">
+            <div class="job-card-caption">
+              <h4 class="job-card-title">Kodenart</h4>
+              <p class="job-card-description">HTML CSS JavaScript PHP WordPress Oxygen Builder</p>
+            </div>
+          </a>
+        </div>
       </div>
     </section>
-
+        
+    
     <!-- contact -->
+
     <section class="page-section contact" id="contact">
-      
+
       <div class="section-column">
-        <h2>Contact Me</h2>
+        <h2 class="section-column-title">Contact Me</h2>
+        <p class="section-column-text">
+          Let's bring your ideas to life – contact me, and together, we'll create a digital masterpiece tailored to your vision.
+        </p>
       </div>
       <div class="section-column">
-        <p>here are going to be the contact</p>
+        <form action="submit_form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
       </div>
     </section>
   </main>
-  
+
+  <footer>
+    <p class="text-center copy-text-size">&copy; 2023 Roberto Medeiros. All Rights Reserved.</p>
+  </footer>
 </body>
 
 </html>
